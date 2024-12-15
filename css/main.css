@@ -1,0 +1,179 @@
+* ,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body{
+    margin:0;
+}
+
+.nav-bg{
+    background-color: #1C1F22 !important;
+}
+.navcon-bg{
+    background-color: #1C1F22;
+}
+
+.logo i{
+    background-image: linear-gradient(#4f779f , #D4D3D8);
+    background-clip: text;
+    color: transparent;
+    font-size: 70px; 
+}
+.logo h4{
+    font-size: 28px;
+    color: #D4D3D8;
+}
+
+.navbar-toggler{
+    color: #b7c6d7 !important;
+    background-color: #b7c6d7 !important;
+}
+
+
+.nav-btn-home{
+    text-align: center;
+    background-color: #b7c6d7 ;
+    border: 2px solid #1C1F22;
+    color: #1C1F22;
+    font-size: 13px;
+    font-weight: 700;
+}
+.nav-btn-home:hover{
+    background-color: #b7c6d7 ;
+    color: #1C1F22;
+    border: 2px solid #1C1F22;
+}
+
+
+.nav-btn{
+    
+    text-align: center;
+    background-color: #1C1F22;
+    border: 2px solid #D4D3D8;
+    border-radius: 10px;
+    color: #8da1b5 ;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.nav-btn:hover { 
+    background-color: #b7c6d7;
+    color:#1C1F22;
+    border: 2px solid #1C1F22;
+}
+.nav-btn:hover a{ 
+  
+    color:#1C1F22 !important;
+
+}
+.text-clr{
+    color: #b7c6d7 !important;
+}
+
+
+
+
+.nav .menu {
+    width: 40%;
+
+}
+
+
+/* .............. */
+
+
+
+.web-body{
+    background-image: url(../imgs/Atmosphere.jpg);
+    background-position: center center ;
+    background-size: cover;
+    /* height:100vh ; */
+    min-height: 80vh;
+    width: 100%;
+    
+}
+
+
+
+.input-color {
+    background-color: #1c1f2245;
+    color:#b7c6d7;
+    font-size: 20px;
+}
+
+.input-color:focus-within{
+   color: #b7c6d7;
+   background-color: #1c1f2245; 
+}
+.input-color::placeholder {
+    background-color: #1c1f2200;
+    color: #b7c6d7;
+}
+
+
+.inner{
+    background-color: #88909882;
+    padding: 20px;
+    border-radius: 14px;
+}
+
+.clr-basic{
+    color: #D4D3D8;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* web Footer  */
+
+
+.web-footer{
+    background-color: #1C1F22;
+}
+
+.web-footer p{
+    color: #b7c6d7;
+}
+
+.web-footer ul li{
+    display: inline-block;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    
+    background-color:  #b7c6d7;
+    color: #b7c6d7;
+    text-align: center;
+}
+
+.web-footer ul li:hover{
+    background-color: #1C1F22;
+    color: #b7c6d7;
+    border: 1px solid #b7c6d7;
+}
+
+.web-footer a{
+    text-decoration: none;
+    color: #1C1F22;
+    font-size: 22px;
+    
+    
+}
+.web-footer a:hover{
+    color: #b7c6d7;
+}
+
+
+
+
+
+
+/* contact page */
+
+
+
+.contact a i{
+    color: #F6F406;
+    font-size: 12px;
+}
